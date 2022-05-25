@@ -1,0 +1,40 @@
+@media screen and (max-width: 760px){
+    header {
+        flex-direction: column;
+    }
+
+    main{ 
+        flex-direction: column;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    form {
+        margin: 0 auto;
+    }
+
+    input {
+        align-self: center;
+    }
+
+    .links {
+        justify-content: space-between;
+        margin-left: auto;
+        margin-right: 30%;
+        width: 200px;
+    
+    }
+
+    .links img {
+        height: 25px;
+    }
+}
+
+@media screen and (max-width: 1147px) {
+    h2 {
+        font-size: 30px;
+    }
+    
+}
