@@ -2,6 +2,7 @@
 <h3 align="center">Projeto de landing page responsivo para telas menores, feito apenas com HTML e CSS</h3>
 <br>
 <img src="https://user-images.githubusercontent.com/101012380/170338340-1f91a52a-8633-40f0-b6ba-b93cd62db31c.png">
+<a href="https://jhonfxa.github.io/Landing-Page/">Clique aqui para ver o site!</a>
 
 ### 🛠 Tecnologias
 
