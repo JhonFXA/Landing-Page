@@ -75,10 +75,40 @@ line-height: 20px;
 max-width: 500px;
 }
 
+article {
+    transform: rotate(-2deg);
+    animation: rotate 8s ease-in-out infinite;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(-2deg);
+    }
+    50% {
+        transform: rotate(2deg);
+    }
+    100% {
+        transform: rotate(-2deg);
+    }
+}
+
 article img {
     height: 600px;
     position: relative;
     bottom: 100px;
+    animation: float 8s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
 }
 
 form {
